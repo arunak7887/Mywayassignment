@@ -33,7 +33,9 @@ Buzz
 
 
 CODE:
-function fizzBuzz(phoneNumber) {
+function fizzBuzz() {
+  const phoneNumber = prompt("Please enter your phone number:");
+  
   // Calculate the sum of digits in the phone number
   const numSum = phoneNumber
     .toString()
@@ -60,3 +62,4 @@ function fizzBuzz(phoneNumber) {
     }
   }
 }
+
